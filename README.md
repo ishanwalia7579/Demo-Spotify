@@ -50,7 +50,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ### Author
-**Your Name**  
+**Ishan walia**  
 *Web Developer and Designer*  
 
 Feel free to reach out for suggestions or feedback!
