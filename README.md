@@ -52,5 +52,7 @@ This project is licensed under the [MIT License](LICENSE).
 ### Author
 **Ishan walia**  
 *Web Developer and Designer*  
-
+### Team Members
+ 1. **Purujeet Kumar**
+ 2.**Mayank Peswani**
 Feel free to reach out for suggestions or feedback!
