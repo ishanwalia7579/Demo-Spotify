@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navbar">
@@ -32,6 +32,10 @@
             <div>
                 <h3>Velly Banda</h3>
                 <p>Sidhu Moose Wala</p>
+                <audio controls>
+                    <source src="velly_banda.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
         <div class="song">
@@ -39,16 +43,38 @@
             <div>
                 <h3>Sarkari Ban</h3>
                 <p>Artist Name</p>
+                <audio controls>
+                    <source src="sarkari_ban.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
-        <!-- Add more songs here -->
+
+        <!-- Video Playlist -->
+        <h2>Video Playlist</h2>
+        <div class="video-playlist">
+            <div class="video">
+                <video controls width="300">
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Music Video 1</p>
+            </div>
+            <div class="video">
+                <video controls width="300">
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Music Video 2</p>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
         <div>
             <img src="https://via.placeholder.com/40" alt="Song Cover">
             <div>
-                <p>Song Title</p>
+                <p>Now Playing: Song Title</p>
                 <p>Artist Name</p>
             </div>
         </div>
