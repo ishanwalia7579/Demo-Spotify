@@ -1,114 +1,122 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #121212;
-    color: #ffffff;
-}
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
 
-.navbar {
-    background-color: #1db954;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        .dark-mode {
+            background-color: #121212;
+            color: #fff;
+        }
 
-.navbar h1 {
-    margin: 0;
-}
+        .navbar {
+            background-color: #1db954;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+        .navbar h1 {
+            margin: 0;
+        }
 
-.navbar li {
-    margin-left: 20px;
-}
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-}
+        .navbar ul li {
+            margin-right: 20px;
+        }
 
-/* Sidebar Styles */
-.sidebar {
-    width: 200px;
-    background-color: #181818;
-    padding: 20px;
-    position: fixed;
-    height: 100%;
-}
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
 
-.sidebar h2 {
-    margin-top: 0;
-}
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
+        /* New Dark Mode Toggle Button */
+        .toggle-btn {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
 
-.sidebar li {
-    margin: 10px 0;
-}
+        /* Music Section */
+        .music-section {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-.sidebar a {
-    color: #b3b3b3;
-    text-decoration: none;
-}
+        .song {
+            margin: 20px;
+            width: 300px;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
 
-/* Main Content Styles */
-.main-content {
-    margin-left: 220px; /* Leave space for the sidebar */
-    padding: 20px;
-}
+        .song img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
 
-.music-section, .video-section {
-    margin-bottom: 30px;
-}
+        .song h3 {
+            font-size: 18px;
+        }
 
-.song, .video {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
+        /* Video Section */
+        .video-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
 
-.song img, .video video {
-    width: 100px; /* Adjust size as needed */
-    margin-right: 15px;
-}
+        .video {
+            margin: 10px;
+        }
 
-.song h3, .video p {
-    margin: 0;
-}
+        /* Footer */
+        .footer {
+            background-color: #1db954;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-/* Footer Styles */
-.footer {
-    background-color: #1e1e1e;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+        .footer img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
 
-.footer div {
-    display: flex;
-    align-items: center;
-}
+        .footer div {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
 
-.footer img {
-    width: 40px;
-    margin-right: 10px;
-}
+        /* Play Controls */
+        .play-controls {
+            display: flex;
+            align-items: center;
+        }
 
-.footer p {
-    margin: 0;
-}
+        .play-controls p {
+            margin: 0;
+            margin-left: 10px;
+        }
